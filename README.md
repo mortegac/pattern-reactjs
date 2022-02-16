@@ -17,7 +17,8 @@
       Card-->Heading;
       Card-->Image;
       Card-->Button;
-      Card-->style-->variants;
+      Card-->style;
+      style-->variants;
 ```
 
 ## Getting Started
