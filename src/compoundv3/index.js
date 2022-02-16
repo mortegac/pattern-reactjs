@@ -1,0 +1,1 @@
+export { default as Cardv3 } from "./Compound";
