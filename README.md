@@ -14,10 +14,11 @@
 - [Compound Component refactor v3](./src/compoundv3/)
 ```mermaid
   graph TD;
+      Card-->Style;
+      Style-->Variants;
       Card-->Heading;
       Card-->Image;
       Card-->Button;
-      Card-->Style;
 ```
 
 ## Getting Started
