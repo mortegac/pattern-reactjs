@@ -48,4 +48,7 @@ You may also see any lint errors in the console.
 ## Dependencies
 
 - [styled-components](https://styled-components.com/)
-- [react Router](https://reactrouter.com/docs/en/v6/getting-started/overview)
+- [react Router v6](https://reactrouter.com/docs/en/v6/getting-started/overview)
+
+##
+![Screenshot](./screen.png)
