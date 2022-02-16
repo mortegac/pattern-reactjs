@@ -12,6 +12,7 @@ import {
   import { Card } from "./compound";
   import { Cardv2 } from "./compoundv2";
   import { Cardv3 } from "./compoundv3";
+  import { Cardv4, Img, Btn, Heading } from "./compoundv4";
   import { CardInitial } from "./initial";
 
 
@@ -54,6 +55,14 @@ import {
                             <img src={ right } alt="" />
                             <CustomLink to="/compoundv3">Compound V3</CustomLink>
                         </li>
+                        <li>
+                            <img src={ right } alt="" />
+                            <CustomLink to="/compoundv4">Compound V4</CustomLink>
+                        </li>
+                        <li>
+                            <img src={ right } alt="" />
+                            <CustomLink to="/control-props">Control Props</CustomLink>
+                        </li>
                     </ul>
                 </nav>
                 <main>
@@ -86,8 +95,7 @@ import {
                                     alt='La llama que llama'
                                  />
                             </>
-                            }/>
-
+                        }/>
 
                         <Route path="/compound" element={
                             <>
@@ -197,7 +205,30 @@ import {
                                
                             </>
                         } />
+
+                        <Route path="/compoundv4" element={
+                            <>
+                                <h1>Pattern Compound V4</h1>
+                                <span>Refactor adding different style behavior</span>
+                                <Cardv4 type='solid-pink'>
+                                    <Heading>Avatar Card </Heading>
+                                    <Img
+                                        src="https://assets.change.org/photos/7/ye/nu/szyenunXZFAIMum-800x450-noPad.jpg"
+                                        alt="La llama que llama"
+                                        type="avatar"
+                                    />
+                                    <Btn>Go </Btn>
+                                </Cardv4> 
+                            </>
+                        } />
+                        <Route path="/control-props" element={
+                            <>
+                                <h1>Pattern Control Props</h1>
+                                <span>It controls when the properties and state of our component change. It is used in forms</span>
+                            </>
+                        } />
                     </Routes>
+                    
                     
                 </main>
 
