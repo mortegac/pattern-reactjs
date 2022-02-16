@@ -4,15 +4,21 @@
 - [Initial Component](./src/initial/)
 
 - [Compound Component](./src/compound/)
-- [Compound Component refactor v2](./src/compound/)
+- [Compound Component refactor v2](./src/compoundv2/)
 ```mermaid
   graph TD;
       Card-->Heading;
       Card-->Image;
       Card-->Button;
 ```
-- [Compound Component refactor v3](./src/compound/)
-
+- [Compound Component refactor v3](./src/compoundv3/)
+```mermaid
+  graph TD;
+      Card-->Heading;
+      Card-->Image;
+      Card-->Button;
+      Card-->style-->variants;
+```
 
 ## Getting Started
 
